@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>JP-Lab</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/my-bootstrap.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="navbar-static-top.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="site-title">
+      <img src="img/tsukada_logo2.png" class="img-responsive" alt="Responsive image">
+      <!-- <img src="img/log2.png"> -->
+
+    </div>
+  </header><!-- /header -->
+
+  <div class="container">
+    <center>
+      <!-- Static navbar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle"
+          data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#home"data-toggle="tab">
+            <i class="glyphicon glyphicon-home "></i>Home</a></li>
+            <li><a href="#member"data-toggle="tab"><i class="glyphicon glyphicon-user"></i>Member</a></li>
+            <li><a href="#gallery"data-toggle="tab"><i class="glyphicon glyphicon-picture"></i> Gallery</a></li>
+            <li><a href="#contact"data-toggle="tab"><i class="glyphicon glyphicon-envelope"></i> Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+
+
+      <div id="myTabContent" class="tab-content"><!-- home -->
+        <div class="tab-pane fade in active" id="home">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/open_lab/top_ito.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/open_lab/IMG_9561.JPG" alt="">
+                <div class="carousel-caption">
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/all/all_2.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+
+
+          <div class="text-center">
+          <h3>Multimedia Systems Lab?</h3>
+              <p>In our laboratory, we are doing researches about characters and images analysis, recognition, and understanding, development of pen based various systems, image processing, computer vision, and etc.. </p>
+          </div>
+
+          <div class="text-footer">
+            <div class="row">
+            <div class="col-md-12">
+            <h6>Researches</h6>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="thumbnail">
+                  <!-- <img src="img//researches/Free.jpg" class="img-responsive" alt="Responsive image"> -->
+                  <a href="#res1" data-toggle="modal"><img src="img//researches/Free.jpg"></a>
+                  <div class="modal fade" id="res1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img//researches/Free.jpg" class="img-responsive" alt="Responsive image">
+                          <h4>On-line Stroke-Order and Stroke-Number Free Character Recgnition</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>n on-line character recognition, we develop an algorithm which computes stroke correspondence between input pattern and reference pattern optimally without depending on their stroke-order or stroke-number.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <!-- <h5>レーザーポインターで文字認識</h5> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="thumbnail">
+                  <!-- <img src="img//researches/Free.jpg" class="img-responsive" alt="Responsive image"> -->
+                  <a href="#res2" data-toggle="modal"><img src="img//researches/StringRecog.jpg"></a>
+                  <div class="modal fade" id="res2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img//researches/StringRecog.jpg" class="img-responsive" alt="Responsive image">
+                          <h4>String Recognition</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Propose an algorithm which implements an optimal segmentation for an input string from pen tablet, separates the string into character unit, and recognizes the correct string and show its effectiveness.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <!-- <h5>レーザーポインターで文字認識</h5> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <img src="img//researches/StringRecog.jpg" class="img-responsive" alt="Responsive image"> -->
+              </div>
+              <div class="col-md-3">
+                <div class="thumbnail">
+                  <!-- <img src="img//researches/Free.jpg" class="img-responsive" alt="Responsive image"> -->
+                  <a href="#res3" data-toggle="modal"><img src="img//researches/FontGenApp.jpg"></a>
+                  <div class="modal fade" id="res3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img//researches/FontGenApp.jpg" class="img-responsive" alt="Responsive image">
+                          <h4>Handwritten Style Font Generation System</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Develop a technique which extracts individual characteristics from a few handwritten input characters, and generates handwritten style font by reflecting the characteristics in other characters.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <!-- <h5>レーザーポインターで文字認識</h5> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <img src="img//researches/FontGenApp.jpg" class="img-responsive" alt="Responsive image"> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        
+        <div class="tab-pane fade" id="member"><!--          member        -->
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <h3>2nd</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <a href="#shingo" data-toggle="modal"><img src="img/member/IMG_9582.JPG"></a>
+                <div class="caption">
+                  <h3><a href="#shingo" data-toggle="modal">Shingo Watanabe</a></h3>
+                  <div class="modal fade" id="shingo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img/member/IMG_9582.JPG" class="img-responsive" alt="Responsive image">
+                          <h4>Shingo Watanabe</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>m5171146</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>Recognition of dharacter drawn on screen with laser pointer.</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <a href="#murata" data-toggle="modal"><img src="img/member/581749_343753412410321_212081246_n.jpg"></a>
+                <div class="caption">
+                  <h3><a href="#murata" data-toggle="modal">Tomoya Murata</a></h3>
+                  <div class="modal fade" id="murata" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img/member/10659212_352665271566900_8811199127656497650_n.jpg" class="img-responsive" alt="Responsive image">
+                          <h4>Tomoya Murata</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>m5172114</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>Hand gesture and number recognition with kinect.</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.row -->   
+
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <h3>1st</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <a href="#tsukada" data-toggle="modal"><img src="img/member/P1000299.JPG"></a>
+                <div class="caption">
+                  <h3><a href="#tsukada" data-toggle="modal">Yoji Tsukada</a></h3>
+                  <div class="modal fade" id="tsukada" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img/member/tsukada.jpg" class="img-responsive" alt="Responsive image">
+                          <h4>Yoji Tsukada</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>m5181147</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>Kanji learning system for portable device.</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.row -->   
+
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <h3>Senior</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <a href="#ito" data-toggle="modal"><img src="img/member/ito.jpg"></a>
+                <div class="caption">
+                  <h3><a href="#ito" data-toggle="modal">Kazuya Ito</a></h3>
+                  <div class="modal fade" id="ito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img/member/tirano.jpg" class="img-responsive" alt="Responsive image">
+                          <h4>Kazuya Ito</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>s1160023</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>??</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <img src="img/member/no-image.png">
+                <div class="caption">
+                  <h3><a href="#suzuki" data-toggle="modal">Syuhei Suziki</a></h3>
+                  <div class="modal fade" id="suzuki" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <!-- <img src="img/member/god.jpg" class="img-responsive" alt="Responsive image"> -->
+                          <h4>Syuhei Suziki</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>s1160117</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>??</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <img src="img/member/shooda2.jpg">
+                <div class="caption">
+                  <h3><a href="#shioda" data-toggle="modal">Eji Shiota</a></h3>
+                  <div class="modal fade" id="shioda" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img/member/shooda.jpg" class="img-responsive" alt="Responsive image">
+                          <h4>Eji Shiota</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>s1180142</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>??</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <img src="img/member/no-image.png">
+                <div class="caption">
+                  <h3><a href="#yaehata" data-toggle="modal">Toshihiro Yaehata</a></h3>
+                  <div class="modal fade" id="yaehata" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <!-- <img src="img/member/yaehata2.jpg" class="img-responsive" alt="Responsive image"> -->
+                          <h4>Toshihiro Yaehata</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>s1180241</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>??</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <img src="img/member/no-image.png">
+                <div class="caption">
+                  <h3><a href="#kutuoka" data-toggle="modal">Takuya Kutsuoka</a></h3>
+                  <div class="modal fade" id="kutuoka" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <!-- <img src="img/member/shingo.jpg" class="img-responsive" alt="Responsive image"> -->
+                          <h4>Takuya Kutsuoka</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>s1190058</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>??</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.row --> 
+
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <h3>Junior</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <img src="img/member/201.jpg">
+                <div class="caption">
+                  <h3><a href="#nirei" data-toggle="modal">Yuki Nirei</a></h3>
+                  <div class="modal fade" id="nirei" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img/member/10641262_10204222744549865_1578649691706693689_n.jpg" class="img-responsive" alt="Responsive image">
+                          <h4>Yuki Nirei</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>s1200146</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>??</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <img src="img/member/ston.jpg">
+                <div class="caption">
+                  <h3><a href="#ishigami" data-toggle="modal">Noaki Ishigami</a></h3>
+                  <div class="modal fade" id="ishigami" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img/member/god.jpg" class="img-responsive" alt="Responsive image">
+                          <h4>Noaki Ishigami</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>s1200166</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>??</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <img src="img/member/moto1.jpg">
+                <div class="caption">
+                  <h3><a href="#motoki" data-toggle="modal">Ryosuke Motoki</a></h3>
+                  <div class="modal fade" id="motoki" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img/member/moto.jpg" class="img-responsive" alt="Responsive image">
+                          <h4>Ryosuke Motoki</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>s1200112</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>??</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class="thumbnail">
+                <img src="img/member/soma1.jpg">
+                <div class="caption">
+                  <h3><a href="#soma" data-toggle="modal">Takuya Soma</a></h3>
+                  <div class="modal fade" id="soma" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="img/member/soma.jpg" class="img-responsive" alt="Responsive image">
+                          <h4>Takuya Soma</h4>
+                        </div>
+                        <div class="modal-body">
+                          <h5>s1200147</h5>
+                        </div>
+                        <div class="modal-footer">
+                          <h5>??</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.row --> <!--      .member           -->
+        </div><!-- /.tab-pane -->  
+
+
+        <div class="tab-pane fade" id="contact"><!--      contact       -->
+          <img src="img/logo/shin_undermail.png" class="img-responsive" alt="Responsive image">
+        </div><!--    .contact    -->
+
+        <div class="tab-pane fade" id="gallery"><!--      gallery       -->
+          <h4>Comming soon!!</h4>
+        </div><!--      .gallery     -->
+
+      </center>
+
+      <footer>
+        <div class="footer-top">
+        </div>
+
+        <div class="footer-center">
+          <hr>
+        </div>
+
+        <div class="footer-down">
+          <p>Multimedia Systems Laboratory 301-E</p>
+          <!-- <p>Dr.Jung-pil Shin  -> Mail:jpshin@u-aizu.ac.jp</p> -->
+        </div>
+
+      </footer>
+
+
+    </div> <!-- /container -->
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+    </body>
+    </html>
